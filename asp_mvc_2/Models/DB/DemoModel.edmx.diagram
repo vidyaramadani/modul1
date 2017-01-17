@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="863a5817533b4cb79bbe369b9ebc11f5" Name="Diagram1" ZoomLevel="44">
+        <EntityTypeShape EntityType="DemoDBModel.LOOKUPRole" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDBModel.sysdiagram" Width="1.5" PointX="12.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDBModel.SYSUser" Width="1.5" PointX="10" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDBModel.SYSUserProfile" Width="1.5" PointX="8" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDBModel.SYSUserRole" Width="1.5" PointX="5.75" PointY="0.625" IsExpanded="true" />
+        <AssociationConnector Association="DemoDBModel.FK__SYSUserRo__LOOKU__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoDBModel.FK__SYSUserPr__SYSUs__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoDBModel.FK__SYSUserRo__SYSUs__32E0915F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
